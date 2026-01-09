@@ -1,8 +1,5 @@
-import os
-
-from views.login import LoginPage
 from views.add_form import AddForm
-
+from views.login import LoginPage
 
 URL = "https://ai-quizwhiz.zluck.com/login"
 
