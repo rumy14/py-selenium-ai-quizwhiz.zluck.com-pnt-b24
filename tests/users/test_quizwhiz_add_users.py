@@ -1,5 +1,3 @@
-from time import sleep
-
 from views.login import LoginPage
 from views.users.add_form import AddForm
 

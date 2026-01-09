@@ -5,17 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c907a05-db40-43cc-9b03-ca617ba45908" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/faq/FAQ_Test_Automation.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/faq/test_quizwhiz_faqs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/faq/~$FAQ_Test_Automation.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_quizwhiz_faqs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/faq/ai-qzwz-home-element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/faqs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/py-selenium-ai-quizwhiz.zluck.com-pnt-b24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py-selenium-ai-quizwhiz.zluck.com-pnt-b24.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_quizwhiz_add_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_quizwhiz_add_users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +32,92 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests in test_quizwhiz_add_users.py.executor": "Run",
-    "Python tests.Python tests in test_quizwhiz_faqs.py.executor": "Run",
-    "Python.ai-qzwz-home-element.executor": "Run",
-    "Python.ai_qzwz.executor": "Run",
-    "Python.ai_qzwz_faqs.executor": "Run",
-    "Python.faqs.executor": "Run",
-    "Python.home.executor": "Run",
-    "Python.test_quizwhiz_faqs.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "munir-py-selenium-ai-qzwz-03-01-2026",
-    "last_opened_file_path": "E:/python_sel/py-selenium-ai-quizwhiz.zluck.com-pnt-b24",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python_sel\py-selenium-ai-quizwhiz.zluck.com-pnt-b24\tests\registration" />
+      <recent name="E:\python_sel\py-selenium-ai-quizwhiz.zluck.com-pnt-b24\views\registration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for tests.registration.test_quizwhiz_regi_negentive.test_registration_for_checking_confirm_password_valid">
+    <configuration name="Python tests for tests.registration.test_quizwhiz_regi_negentive.test_registration_for_checking_confirm_password_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.registration.test_quizwhiz_regi_negentive.test_registration_for_checking_confirm_password_valid&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.registration.test_quizwhiz_regi_positive.test_registration_with_all_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.registration.test_quizwhiz_regi_positive.test_registration_with_all_valid&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_quizwhiz_add_users.test_show_add_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_quizwhiz_add_users.test_show_add_form&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.users.test_quizwhiz_add_users.test_show_add_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.users.test_quizwhiz_add_users.test_show_add_form&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for tests.registration.test_quizwhiz_regi_negentive.test_registration_for_checking_confirm_password_valid" />
+        <item itemvalue="Python tests.Python tests for tests.registration.test_quizwhiz_regi_positive.test_registration_with_all_valid" />
+        <item itemvalue="Python tests.Python tests for tests.users.test_quizwhiz_add_users.test_show_add_form" />
+        <item itemvalue="Python tests.Python tests for tests.test_quizwhiz_add_users.test_show_add_form" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
