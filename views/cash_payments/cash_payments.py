@@ -1,0 +1,69 @@
+from time import sleep
+from selenium.webdriver.common.by import By
+
+
+class Login:
+    def __init__(self, driver):
+        self.driver = driver
+
+    def enter_username(self, username):
+        self.driver.find_element(By.ID, "data.email").clear()
+        self.driver.find_element(By.ID, "data.email").send_keys(username)
+        sleep(1)
+
+    def enter_password(self, password):
+        self.driver.find_element(By.ID, "data.password").clear()
+        self.driver.find_element(By.ID, "data.password").send_keys(password)
+        sleep(1)
+
+    def click_login_btn(self):
+        self.driver.find_element(By.XPATH, "/html/body/div[3]/div/main/div/div[2]/div[2]/div/form/div[2]/div/button").click()
+        sleep(1)
+
+    def login(self, username, password):
+        self.enter_username(username)
+        self.enter_password(password)
+        self.click_login_btn()
+        sleep(1)
+
+    def verify_login(self):
+        text = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/header/div[1]/h1").text
+        assert text == "Dashboard"
+        sleep(3)
+
+class CashPayments:
+
+    def __init__(self, driver):
+        self.driver = driver
+
+    def click_cash_payments_btn(self):
+        self.driver.find_element(By.XPATH, "/html/body/div[1]/aside/nav/ul/li/ul/li[7]/a").click()
+        sleep(1)
+
+    def verify_cash_payment_module(self):
+        text = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/header/div[1]/h1").text
+        assert text == "Cash Payments"
+        sleep(3)
+
+    def search(self, search):
+        self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[1]/div/div[2]/input").clear()
+        self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[1]/div/div[2]/input").send_keys(search)
+        sleep(3)
+
+    def verify_search(self):
+        text = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[3]/table/tbody/tr/td[2]/div/div/div/div/div/div/span").text
+        assert text == "Basic"
+        sleep(3)
+
+    def click_filter_btn(self):
+        self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[1]/button").click()
+        sleep(1)
+        self.driver.find_element(By.XPATH,"/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div[1]").click()
+        sleep(1)
+        self.driver.find_element(By.XPATH,"/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]").click()
+        sleep(1)
+
+    def verify_filter(self):
+        text = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[3]/table/tbody/tr/td[7]/div/div/div/div/div/select").text
+        assert text == "Approved"
+        sleep(3)
