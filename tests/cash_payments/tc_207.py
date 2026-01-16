@@ -8,7 +8,7 @@ from views.cash_payments import CashPayments
 URL = "https://ai-quizwhiz.zluck.com/login"
 
 
-def test_login(driver):
+def test_reset_filter(driver):
     # Initialize Page Objects
     login_page = Login(driver)
 
@@ -28,8 +28,8 @@ def test_login(driver):
     cash_payments = CashPayments(driver)
     cash_payments.click_cash_payments_btn()
 
-    # View Function
-    cash_payments.click_view_btn()
+    # Filter Function
+    cash_payments.click_reset_filter_btn()
     sleep(5)
-    cash_payments.verify_view_action() # Verify View Function
+    cash_payments.verify_reset_filter() # Verify Filter Function
     sleep(5)

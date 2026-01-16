@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c907a05-db40-43cc-9b03-ca617ba45908" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/py-selenium-ai-quizwhiz.zluck.com-pnt-b24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py-selenium-ai-quizwhiz.zluck.com-pnt-b24.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/verify_cash_payment_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/verify_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/verify_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/verify_view_action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/cash_payments.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/cash_payments.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,99 +32,125 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="365x2z8EiEjDGq4Z8Un15Rwn8ir" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
 
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\python_sel\py-selenium-ai-quizwhiz.zluck.com-pnt-b24\tests\registration" />
       <recent name="E:\python_sel\py-selenium-ai-quizwhiz.zluck.com-pnt-b24\views\registration" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.registration.test_quizwhiz_regi_negentive.test_registration_for_checking_confirm_password_valid">
-    <configuration name="Python tests for tests.registration.test_quizwhiz_regi_negentive.test_registration_for_checking_confirm_password_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for tc_221.test_cash_payment_module">
+    <configuration name="pytest for tc_206.test_pending_filter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/cash_payments" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.registration.test_quizwhiz_regi_negentive.test_registration_for_checking_confirm_password_valid&quot;" />
+      <option name="_new_target" value="&quot;tc_206.test_pending_filter&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.registration.test_quizwhiz_regi_positive.test_registration_with_all_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tc_207.test_reset_filter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/cash_payments" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.registration.test_quizwhiz_regi_positive.test_registration_with_all_valid&quot;" />
+      <option name="_new_target" value="&quot;tc_207.test_reset_filter&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_quizwhiz_add_users.test_show_add_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tc_211.test_search_plan_name" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/cash_payments" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_quizwhiz_add_users.test_show_add_form&quot;" />
+      <option name="_new_target" value="&quot;tc_211.test_search_plan_name&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.users.test_quizwhiz_add_users.test_show_add_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tc_213.test_search_non_existent" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/cash_payments" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.users.test_quizwhiz_add_users.test_show_add_form&quot;" />
+      <option name="_new_target" value="&quot;tc_213.test_search_non_existent&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tc_221.test_cash_payment_module" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/cash_payments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tc_221.test_cash_payment_module&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.registration.test_quizwhiz_regi_negentive.test_registration_for_checking_confirm_password_valid" />
-        <item itemvalue="Python tests.Python tests for tests.registration.test_quizwhiz_regi_positive.test_registration_with_all_valid" />
-        <item itemvalue="Python tests.Python tests for tests.users.test_quizwhiz_add_users.test_show_add_form" />
-        <item itemvalue="Python tests.Python tests for tests.test_quizwhiz_add_users.test_show_add_form" />
+        <item itemvalue="Python tests.pytest for tc_221.test_cash_payment_module" />
+        <item itemvalue="Python tests.pytest for tc_213.test_search_non_existent" />
+        <item itemvalue="Python tests.pytest for tc_211.test_search_plan_name" />
+        <item itemvalue="Python tests.pytest for tc_207.test_reset_filter" />
+        <item itemvalue="Python tests.pytest for tc_206.test_pending_filter" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="bundled-python-sdk-1f1b7bcced7d-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.29188.22" />
       </set>
     </attachedChunks>
   </component>

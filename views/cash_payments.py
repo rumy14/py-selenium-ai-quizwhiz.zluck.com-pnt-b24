@@ -36,6 +36,7 @@ class CashPayments:
     def __init__(self, driver):
         self.driver = driver
 
+    # Cash Payment Module
     def click_cash_payments_btn(self):
         self.driver.find_element(By.XPATH, "/html/body/div[1]/aside/nav/ul/li/ul/li[7]/a").click()
         sleep(5)
@@ -45,17 +46,40 @@ class CashPayments:
         assert text == "Cash Payments"
         sleep(5)
 
+    #    Verify 'Showing X results' counter.
+    def verify_showing_X_results(self):
+        text = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/nav/span").text
+        assert text == "Showing 1 to 3 of 3 results"
+        sleep(5)
+
+
+    # Search
     def search(self, search):
         self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[1]/div/div[2]/input").clear()
         self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[1]/div/div[2]/input").send_keys(search)
         sleep(3)
 
-    def verify_search(self):
+    # Search Plan Name
+    def verify_search_plan_name(self):
         text = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[3]/table/tbody/tr/td[2]/div/div/div/div/div/div/span").text
         assert text == "Basic"
         sleep(3)
 
-    def click_filter_btn(self):
+    #Search User Name
+    def verify_user_name(self):
+        text = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[3]/table/tbody/tr/td[1]/div/div/div/div/div/div/span").text
+        assert text == "User"
+        sleep(3)
+
+    # Search with non-existent term
+    def verify_non_existent(self):
+        text = self.driver.find_element(By.XPATH,
+                                            "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[3]/div/div/h4").text
+        assert text == "No Cash Payments"
+        sleep(3)
+
+    # Approved Filter
+    def click_approved_filter_btn(self):
         self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[1]/button").click()
         sleep(1)
         self.driver.find_element(By.XPATH,"/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div[1]").click()
@@ -63,11 +87,60 @@ class CashPayments:
         self.driver.find_element(By.XPATH,"/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]").click()
         sleep(1)
 
-    def verify_filter(self):
+    def verify_approved_filter(self):
         text = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[2]/div[1]/div/span/span/span").text
         assert text == "Approved"
         sleep(3)
 
+    # Pending Filter
+    def click_pending_filter_btn(self):
+        self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[1]/button").click()
+        sleep(1)
+        self.driver.find_element(By.XPATH,"/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div[1]").click()
+        sleep(1)
+        self.driver.find_element(By.XPATH,"/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div[3]").click()
+        sleep(1)
+
+    def verify_pending_filter(self):
+        text = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[2]/div[1]/div/span/span/span").text
+        assert text == "Pending"
+        sleep(3)
+
+    # Rejected Filter
+    def click_rejected_filter_btn(self):
+        self.driver.find_element(By.XPATH,
+                                     "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[1]/button").click()
+        sleep(1)
+        self.driver.find_element(By.XPATH,
+                                     "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div[1]").click()
+        sleep(1)
+        self.driver.find_element(By.XPATH,
+                                     "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div[2]").click()
+        sleep(1)
+
+    def verify_rejected_filter(self):
+        text = self.driver.find_element(By.XPATH,
+                                            "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[2]/div[1]/div/span/span/span").text
+        assert text == "Rejected"
+        sleep(3)
+
+    # Filter Reset Btn
+    def click_reset_filter_btn(self):
+        self.driver.find_element(By.XPATH,
+                                     "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[1]/button").click()
+        sleep(1)
+        self.driver.find_element(By.XPATH,
+                                     "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/div/div[1]/div/button/span").click()
+        sleep(1)
+
+    def verify_reset_filter(self):
+        text = self.driver.find_element(By.XPATH,
+                                            "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/nav/span").text
+        assert text == "Showing 1 to 3 of 3 results"
+        sleep(3)
+
+
+    # View Action
     def click_view_btn(self):
         self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/main/div/section/div/div/div/div/div/div[2]/table/tbody/tr[1]/td[8]/div/div/button/span").click()
         sleep(5)

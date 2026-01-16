@@ -8,7 +8,7 @@ from views.cash_payments import CashPayments
 URL = "https://ai-quizwhiz.zluck.com/login"
 
 
-def test_login(driver):
+def test_search_user_name(driver):
     # Initialize Page Objects
     login_page = Login(driver)
 
@@ -29,8 +29,8 @@ def test_login(driver):
     cash_payments.click_cash_payments_btn()
 
     #search function
-    search ="basic"
+    search ="User"
     cash_payments.search(search)
     sleep(5)
-    cash_payments.verify_search() # Verify Search Function
+    cash_payments.verify_user_name() # Verify Search Function
     sleep(5)
