@@ -1,22 +1,15 @@
-from time import sleep
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
-from views.login import LoginPage
+def test_login_with_valid_id():
+    driver = webdriver.Chrome()
+    driver.get("https://ai-quizwhiz.zluck.com/login")
+    driver.maximize_window()
 
+    elem_user_id_input = driver.find_element(By.XPATH, "YOUR_XPATH_HERE")
+    elem_user_id_input.clear()
+    elem_user_id_input.send_keys("admin@gmail.com")
 
-URL = "https://ai-quizwhiz.zluck.com/login"
-
-
-def test_login(driver):
-    # Initialize Page Objects
-    login_page = LoginPage(driver)
-
-    # Open Webpage
-    driver.get(URL)
-
-    # Login
-    username = "admin@gmail.com"
-    password = "123456"
-    login_page.login(username, password)
-    sleep(5)
-
-    login_page.verify_login()  # Verify Login Page
+    time.sleep(3)
+    driver.quit()

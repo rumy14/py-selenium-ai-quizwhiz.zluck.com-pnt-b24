@@ -1,7 +1,7 @@
-
 import time
-
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
 
 def test_login_with_valid_admin():
     driver = webdriver.Chrome()  # 1. Open the Google Chrome

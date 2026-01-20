@@ -1,9 +1,5 @@
 
-import time
-
-from selenium import webdriver
-
-def test_login_with_valid_admin():
+def test_login_with_valid_admin(webdriver=None):
     driver = webdriver.Chrome()  # 1. Open the Google Chrome
 
     driver.get("https://ai-quizwhiz.zluck.com/login")
@@ -34,13 +30,12 @@ def test_login_with_valid_admin():
     assert (elem_btn_new_users.is_displayed() == True)
 
     # Error message verify
-    text_error_message_for_wrong_email = driver.find_element("xpath","/html/body/div[3]/div/main/div/div[2]/div[2]/div/form/div[1]/div[1]/div/div/div[2]/p"
-                                                             ).text
+    text_error_message_for_wrong_email = driver.find_element("xpath","/html/body/div[3]/div/main/div/div[2]/div[2]/div/form/div[1]/div[1]/div/div/div[2]/p")
 
     # Assert the expected error message
     assert text_error_message_for_wrong_email == "These credentials do not match our records.", f"Expected 'These credentials do not match our records.', but got {text_error_message_for_wrong_email}"
-    time.sleep(3)
+
     driver.quit()
 
 
-    time.sleep(10)
+
