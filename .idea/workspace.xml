@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c907a05-db40-43cc-9b03-ca617ba45908" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/py-selenium-ai-quizwhiz.zluck.com-pnt-b24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py-selenium-ai-quizwhiz.zluck.com-pnt-b24.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cash_payments/verify_cash_payment_module.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cash_payments/verify_filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cash_payments/verify_search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cash_payments/verify_view_action.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cash_payments.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/cash_payments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_201.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/cash_payments/tc_view_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_204.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/cash_payments/tc_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_205.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_206.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_207.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_211.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/cash_payments/tc_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_212.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_213.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_219.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/cash_payments/tc_cash_payment_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cash_payments/tc_221.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/cash_payments/tc_showing_X_results.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
       <recent name="E:\python_sel\py-selenium-ai-quizwhiz.zluck.com-pnt-b24\views\registration" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for tc_221.test_cash_payment_module">
+  <component name="RunManager">
     <configuration name="pytest for tc_206.test_pending_filter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
       <option name="ENV_FILES" value="" />
@@ -86,23 +90,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tc_211.test_search_plan_name" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/cash_payments" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tc_211.test_search_plan_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for tc_213.test_search_non_existent" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
       <option name="ENV_FILES" value="" />
@@ -120,7 +107,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tc_221.test_cash_payment_module" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.cash_payments.tc_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,15 +120,32 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tc_221.test_cash_payment_module&quot;" />
+      <option name="_new_target" value="&quot;tests.cash_payments.tc_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.cash_payments.tc_showing_X_results" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="py-selenium-ai-quizwhiz.zluck.com-pnt-b24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/cash_payments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.cash_payments.tc_showing_X_results&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for tc_221.test_cash_payment_module" />
+        <item itemvalue="Python tests.pytest for tests.cash_payments.tc_showing_X_results" />
         <item itemvalue="Python tests.pytest for tc_213.test_search_non_existent" />
-        <item itemvalue="Python tests.pytest for tc_211.test_search_plan_name" />
+        <item itemvalue="Python tests.pytest for tests.cash_payments.tc_search" />
         <item itemvalue="Python tests.pytest for tc_207.test_reset_filter" />
         <item itemvalue="Python tests.pytest for tc_206.test_pending_filter" />
       </list>
